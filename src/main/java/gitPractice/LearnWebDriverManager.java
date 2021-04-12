@@ -24,7 +24,7 @@ public class LearnWebDriverManager {
 		 driver.get("https://www.google.com/"); 
 		 System.out.println(driver.getTitle());
 		
-		driver.quit();
+		driver.close();
 	
 		  
 		
